@@ -1,6 +1,5 @@
 <resources>
-    <string name="app_name">Tyco POC</string>
-
+    <string name="app_name">Tyco~Driver App</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 </resources>

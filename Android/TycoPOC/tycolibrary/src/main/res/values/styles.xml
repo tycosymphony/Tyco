@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="app_theme" parent="android:Theme">
+        <item name="android:windowBackground">@drawable/splash_screen_pattern</item>
+    </style>
+
+    <style name="Theme.App.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorControlNormal">@color/loginHeadText</item>
+        <item name="colorControlActivated">@color/splashScreenBackground</item>
+        <item name="colorControlHighlight">@color/loginHeadText</item>
+    </style>
+</resources>

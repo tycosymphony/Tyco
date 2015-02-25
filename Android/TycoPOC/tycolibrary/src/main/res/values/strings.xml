@@ -1,6 +1,120 @@
 <resources>
     <string name="app_name">Tyco Library</string>
-
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="login_screen_txt">Enter Credentials</string>
+    <string name="userID_Txt">User ID</string>
+    <string name="password_txt">Access Pin</string>
+    <string name="cancel_txt">Cancel</string>
+    <string name="login_txt">Login</string>
+    <string name="panic_txt">  Panic  </string>
+    <string name="settings_txt">Settings</string>
+
+    <string-array name="route">
+        <item>SEZ - Silkboard</item>
+        <item>SEZ - HAL</item>
+        <item>SEZ - Hebbal</item>
+        <item>SEZ - Electronic City</item>
+        <item>SEZ - Jayanagar</item>
+        <item>SEZ - Madiwala</item>
+        <item>SEZ - JP Nagar</item>
+        <item>SEZ - Shivaji Nagar</item>
+        <item>SEZ - Majestic</item>
+        <item>SEZ - MG Road</item>
+    </string-array>
+
+    <string-array name="employee_count">
+        <item>8</item>
+        <item>10</item>
+        <item>13</item>
+        <item>6</item>
+        <item>11</item>
+        <item>14</item>
+        <item>3</item>
+        <item>6</item>
+        <item>7</item>
+        <item>13</item>
+    </string-array>
+
+    <string-array name="start">
+        <item>SEZ</item>
+        <item>SEZ</item>
+        <item>SEZ</item>
+        <item>SEZ</item>
+        <item>SEZ</item>
+        <item>SEZ</item>
+        <item>SEZ</item>
+        <item>SEZ</item>
+        <item>SEZ</item>
+        <item>SEZ</item>
+    </string-array>
+
+    <string-array name="destination">
+        <item>Silkboard</item>
+        <item>HAL</item>
+        <item>Hebbal</item>
+        <item>Electronic City</item>
+        <item>Jayanagar</item>
+        <item>Madiwala</item>
+        <item>JP Nagar</item>
+        <item>Shivaji Nagar</item>
+        <item>Majestic</item>
+        <item>MG Road</item>
+    </string-array>
+
+    <string-array name="startTime">
+        <item>8.00</item>
+        <item>7.30</item>
+        <item>8.00</item>
+        <item>7.30</item>
+        <item>Jayanagar</item>
+        <item>7.30</item>
+        <item>8.00</item>
+        <item>7.30</item>
+        <item>8.00</item>
+        <item>8.30</item>
+    </string-array>
+
+    <string-array name="lat_pos">
+        <item>12.91097</item>
+        <item>12.91733</item>
+        <item>12.91490</item>
+        <item>12.91936</item>
+        <item>12.91049</item>
+        <item>12.94161</item>
+        <item>12.91934</item>
+    </string-array>
+
+    <string-array name="long_pos">
+        <item>77.62440</item>
+        <item>77.62125</item>
+        <item>77.61267</item>
+        <item>77.60013</item>
+        <item>77.58572</item>
+        <item>77.55785</item>
+        <item>77.50229</item>
+    </string-array>
+
+    <string-array name="lat_pos1">
+        <item>12.967445</item>
+        <item>12.924205</item>
+        <item>12.967445</item>
+        <item>12.959172</item>
+        <item>12.925623</item>
+        <item>12.924205</item>
+        <item>12.916744</item>
+    </string-array>
+
+    <string-array name="long_pos1">
+        <item>77.716425</item>
+        <item>77.650564</item>
+        <item>77.716425</item>
+        <item>77.697419</item>
+        <item>77.676062</item>
+        <item>77.650564</item>
+        <item>77.621774</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
 </resources>

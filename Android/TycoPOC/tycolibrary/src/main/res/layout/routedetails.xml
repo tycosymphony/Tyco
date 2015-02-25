@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/footerFont"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_marginTop="30dp"
+        android:text="Route:" android:textColor="@color/detailTextView"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/routeTxt" android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:textColor="@color/loginTextView"
+        android:layout_gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_marginTop="10dp"
+        android:text="Time:" android:textColor="@color/detailTextView"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/timeTxt" android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:textColor="@color/loginTextView"
+        android:layout_gravity="center_horizontal" 
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_marginTop="10dp"
+        android:text="Start:" android:textColor="@color/detailTextView"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/startTxt"
+        android:layout_width="wrap_content" android:layout_marginTop="5dp"
+        android:layout_height="wrap_content" android:textColor="@color/loginTextView"
+        android:layout_gravity="center_horizontal" 
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_marginTop="10dp"
+        android:text="End:" android:textColor="@color/detailTextView"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/endTxt"
+        android:layout_width="wrap_content" android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/loginTextView"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_marginTop="10dp"
+        android:text="Total Employees:" android:textColor="@color/detailTextView"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/totalEmpTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/loginTextView"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/startRouteBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_marginTop="20dp"
+        android:background="@color/textViewToggle"
+        android:gravity="center_vertical|center_horizontal"
+        android:paddingRight="@dimen/abc_dropdownitem_text_padding_right"
+        android:text="Start Trip"
+        android:textColor="@color/footerFont" />
+    <Button
+        android:id="@+id/closeRouteBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_marginTop="10dp"
+        android:background="@color/textViewToggle"
+        android:gravity="center_vertical|center_horizontal"
+        android:paddingRight="@dimen/abc_dropdownitem_text_padding_right"
+        android:text="Close Trip"
+        android:textColor="@color/footerFont" />
+
+    <Button
+        android:id="@+id/checkRoute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_marginTop="10dp"
+        android:background="@color/loginHeadText"
+        android:gravity="center_vertical|center_horizontal"
+        android:paddingRight="@dimen/abc_dropdownitem_text_padding_right"
+        android:text="Check Route"
+        android:textColor="@color/footerFont" />
+</LinearLayout>
