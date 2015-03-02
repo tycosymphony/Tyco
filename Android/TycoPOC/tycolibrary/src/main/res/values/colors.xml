@@ -8,4 +8,5 @@
     <item name="panicAlert" type="color">#f44336</item>
     <item name="textViewToggle" type="color">#56C0E3</item>
     <item name="detailTextView" type="color">#454545</item>
+    <item name="actionBarBackground" type="color">#89C754</item>
 </resources>

@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/textViewToggle"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"></RelativeLayout>
+
+    <Button
+        android:id="@+id/btnGetMoreResults"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/footerButton"
+        android:gravity="right|center_vertical"
+        android:text="\u00a9 2015 Tyco"
+        android:paddingRight="5dp"
+        android:textColor="@color/footerFont" />
+
+</RelativeLayout>

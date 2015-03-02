@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <style name="app_theme" parent="android:Theme">
         <item name="android:windowBackground">@drawable/splash_screen_pattern</item>
     </style>
@@ -8,5 +9,15 @@
         <item name="colorControlNormal">@color/loginHeadText</item>
         <item name="colorControlActivated">@color/splashScreenBackground</item>
         <item name="colorControlHighlight">@color/loginHeadText</item>
+    </style>
+
+    <!-- the theme applied to the application or activity -->
+    <style name="CustomActionBarTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/actionBarBackground</item>
     </style>
 </resources>
